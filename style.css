@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #2F2E41;
+    min-height: 100vh;
+}
+
+#page {
+    width: 1200px;
+    padding-top: 71px;
+    padding-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Cabeçalho*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: white;
+}
+
+nav ul li:hover{
+    font-weight: bold;
+}
+
+/*Corpo*/
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 82px;
+
+    margin-bottom: 150px;
+}
+
+main h1{
+    color: white;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+main h1 span{
+    font-weight: bold;
+    color: #00BFA6;
+}
+
+main p{
+    color: #C2C2C2;
+    width: 580px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#pblue{
+    color: #00BFA6;
+}
+
+/*Rodape*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    color: white;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+footer hr{
+    width: 568px;
+    margin-bottom: 27px;
+}
+
+#padlock{
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
